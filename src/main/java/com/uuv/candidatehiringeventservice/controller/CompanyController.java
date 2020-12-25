@@ -15,15 +15,15 @@ public class CompanyController {
     public Company getCompanyById(@PathVariable ("uuid") String uid){
         return null;
     }
-    @PostMapping("/addresses")
+    @PostMapping("/company")
     public Company createCompany(@RequestBody Company company){
         return null;
     }
-    @PutMapping("/addresses/{uuid}")
+    @PutMapping("/company/{uuid}")
     public Company updateCompany(@RequestBody Company company ,@PathVariable ("uuid") String uid){
         return null;
     }
-    @DeleteMapping("/addresses/{uuid}")
+    @DeleteMapping("/company/{uuid}")
     public Company deleteCompany(@PathVariable("uuid") String uid){
         return null;
     }
